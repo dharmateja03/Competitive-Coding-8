@@ -3,6 +3,8 @@
 # Approach: Use two pointer plus sliding window approach maintain have and need counts. lets say at some point have ==need we try to move left pointer until have =need we have have samller ans 
 # insider l to r.if using sliding window with 2 pointer instrings always rememebr to have ''have and ned variables
 # https://leetcode.com/problems/minimum-window-substring/
+# s = "ab" * 5000 + "c"
+# t = "abc" this is worst case
 
 
 class Solution:
