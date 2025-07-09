@@ -5,7 +5,8 @@
 # https://leetcode.com/problems/minimum-window-substring/
 # s = "ab" * 5000 + "c"
 # t = "abc" this is worst case
-
+# need is the number of unique characters in t.
+# have tracks how many of those characters have matched frequency between s[l:r+1] and t.
 
 class Solution:
     def minWindow(self, s: str, t: str) -> str:
